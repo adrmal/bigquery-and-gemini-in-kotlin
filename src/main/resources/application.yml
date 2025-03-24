@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: bigquery-and-gemini-in-kotlin
+
+server:
+  port: 8080
+
+big-query:
+  project-id: 'your-google-cloud-project-id'
+
+gemini:
+  project-id: 'your-google-cloud-project-id'
+  location: 'your-google-cloud-location' # available locations - https://cloud.google.com/vertex-ai/generative-ai/docs/learn/locations#genai-locations
+  model: 'gemini-2.0-flash-001' # available models - https://ai.google.dev/gemini-api/docs/models
