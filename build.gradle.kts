@@ -20,7 +20,6 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
-	implementation("org.jetbrains.kotlin:kotlin-reflect")
 
 	/**
 	 * These libraries should have consistent versions.
@@ -28,8 +27,8 @@ dependencies {
 	 * The best way is to find the latest version of com.google.cloud:libraries-bom and read versions of VertexAI and BigQuery from that BOM
 	 * (for example here: https://github.com/googleapis/java-cloud-bom).
 	 */
-	implementation("com.google.cloud:google-cloud-vertexai:1.18.0")
-	implementation("com.google.cloud:google-cloud-bigquery:2.48.0")
+	implementation("com.google.cloud:google-cloud-vertexai:1.22.0")
+	implementation("com.google.cloud:google-cloud-bigquery:2.50.0")
 }
 
 kotlin {
